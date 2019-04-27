@@ -15,6 +15,9 @@ def about_us():
 @app.route('/profile')
 def profile():
     return render_template('profile.html')
+@app.route('/donate')
+def donate():
+    return render_template('donate.html')
 
 @app.route('/australia')
 def australia():
