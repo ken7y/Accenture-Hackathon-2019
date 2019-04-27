@@ -14,5 +14,14 @@
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.1",
+    "ethereumjs-testrpc": "^6.0.3",
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "truffle": "^5.0.14"
   }
 }
