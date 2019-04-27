@@ -61,7 +61,5 @@ contract buyGoods {
 		_;
 	}
 
-	//function addTask()
-
 	//function triggerEvent()
 }
