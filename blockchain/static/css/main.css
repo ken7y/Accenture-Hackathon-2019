@@ -633,3 +633,26 @@ input[type='password']:focus {
   width: 182px;
 }
 .center1{padding:20px;}
+
+
+/*=========================
+ 10) Progress Bar
+===========================*/
+.progress-container {		.center1{padding:20px;}
+margin-top: 40px;
+padding-top: 20px;
+/*background-color: #beb*/
+}
+.vertical {
+display: inline-block;
+width: 20%;
+height: 75px;
+-webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+transform: rotate(-90deg);
+}
+.vertical {
+box-shadow: inset 0px 4px 6px #ccc;
+}
+.progress-bar {
+box-shadow: inset 0px 4px 6px rgba(100,100,100,0.6);
+}
