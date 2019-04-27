@@ -10,7 +10,7 @@ const app = express();
 //app.set('view engine', 'html');	
 app.set('views', path.join(__dirname, 'templates'));
 
-app.use(express.static('public'));
+app.use(express.static(__dirname));
 
 app.get('/', function(req, res) {
   res.sendFile(pathFile + 'index.html');
@@ -24,7 +24,7 @@ app.get('/profile', function(req, res) {
   res.sendFile(pathFile + 'profile.html');
 });
 
-app.get('/australia', function(req, res) {
+app.get('/australia', function(req, res)	 {
   res.sendFile(pathFile + 'australia.html');
 });
 // app.use(express.json());
