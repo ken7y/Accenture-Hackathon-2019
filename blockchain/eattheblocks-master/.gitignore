@@ -1,8 +1,0 @@
-*debug
-*.swp
-tags
-tags.*
-node_modules
-bundle.js
-**/build
-.DS_Store
