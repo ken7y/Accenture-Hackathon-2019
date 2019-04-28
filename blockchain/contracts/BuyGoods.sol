@@ -30,14 +30,6 @@ contract buyGoods {
 		_;
 	}
 
-	modifier onlyAdmin() {
-		require(
-			msg.sender == admin,
-			'Only the admin can call this.'
-		);
-		_;
-	}
-
 	modifier inState(State _state) {
         require(
             state == _state,
