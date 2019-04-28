@@ -1,13 +1,13 @@
 const express = require('express');
 var cookieParser = require('cookie-parser');
-var path = require('path');		
+var path = require('path');
 var pathFile = __dirname + '/templates/';
 //	var indexRouter = require('./routes/index');
 // var usersRouter = require('./template/users');
 
 const app = express();
 
-//app.set('view engine', 'html');	
+//app.set('view engine', 'html');
 app.set('views', path.join(__dirname, 'templates'));
 
 app.use(express.static(__dirname));
@@ -26,6 +26,12 @@ app.get('/profile', function(req, res) {
 
 app.get('/australia', function(req, res)	 {
   res.sendFile(pathFile + 'australia.html');
+});
+app.get('/donate', function(req, res)	 {
+  res.sendFile(pathFile + 'donate.html');
+});
+app.get('/display', function(req, res)	 {
+  res.sendFile(pathFile + 'display.html');
 });
 // app.use(express.json());
 // app.use(express.urlencoded({ extended: false }));
